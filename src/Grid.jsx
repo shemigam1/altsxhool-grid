@@ -7,7 +7,7 @@ function Grid({ numRows, numCols }) {
   const boxIndices = range(totalBoxes);
 
   return (
-    <div className="grid" style={{ gridTemplateColumns: `repeat(${numCols}, 1fr)` }}>
+    <div className="grid" style={{ gridTemplateColumns: `repeat(${numCols}, 1fr)`}}>
       {boxIndices.map((index) => (
         <div key={index} className="grid-box">
           {}
